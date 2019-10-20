@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gusdur">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:text=' K. H. Abdurrahman Wahid atau yang akrab disapa Gus Dur (lahir di Jombang, Jawa Timur, 7 September 1940 – meninggal di Jakarta, 30 Desember 2009 pada umur 69 tahun)[1] adalah tokoh Muslim Indonesia dan pemimpin politik yang menjadi Presiden Indonesia yang keempat dari tahun 1999 hingga 2001. Ia menggantikan Presiden B.J. Habibie setelah dipilih oleh Majelis Permusyawaratan Rakyat hasil Pemilu 1999. Penyelenggaraan pemerintahannya dibantu oleh Kabinet Persatuan Nasional. Masa kepresidenan Abdurrahman Wahid dimulai pada 20 Oktober 1999 dan berakhir pada Sidang Istimewa MPR pada tahun 2001. Tepat 23 Juli 2001, kepemimpinannya digantikan oleh Megawati Soekarnoputri setelah mandatnya dicabut oleh MPR. Abdurrahman Wahid adalah mantan ketua Tanfidziyah (badan eksekutif) Nahdlatul Ulama dan pendiri Partai Kebangkitan Bangsa (PKB).'
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/gusdur" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:text="Deskripsi"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

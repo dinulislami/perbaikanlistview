@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soeharto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView"
+                android:text='Jend. Besar TNI Purn. Haji Muhammad Soeharto atau lebih dikenal dengan Suharto, lahir pada tanggal 8 Juni 1921, di Dusun Kemusuk, Desa Argomulyo, Kecamatan Sedayu, Bantul, Yogyakarta. Beliau meninggal di Jakarta, pada 27 Januari 2008 di usia nya ke-86 tahun. Suharto adalah Presiden ke-dua di Indonesia yang menjabat pada periode 1967-1998, menggantikan Soekarno. Di dunia internasional, kepopuleran Soeharto sering disebut sebagai "The Smiling General" yaitu "Sang Jenderal yang Tersenyum" karena raut mukanya yang selalu tersenyum.'
+                android:textAlignment="gravity"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/suharto" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:text="Deskripsi"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
